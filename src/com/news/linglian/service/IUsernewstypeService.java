@@ -1,0 +1,63 @@
+package com.news.linglian.service;
+
+import java.util.List;
+
+import com.news.linglian.entity.Usernewstype;
+
+public interface IUsernewstypeService {
+    public int update(Usernewstype usernewstype, Usernewstype keyUsernewstype);
+    public int updateOfUserNewsTypeId(Usernewstype usernewstype, String userNewsTypeId);
+    public int updateOfUserId(Usernewstype usernewstype, String userId);
+    public int updateOfName(Usernewstype usernewstype, String name);
+    public int updateOfBody(Usernewstype usernewstype, String body);
+    public int updateOfUserNewsTypeIdAndUserId(Usernewstype usernewstype, String userNewsTypeId, String userId);
+    public int updateOfUserNewsTypeIdAndName(Usernewstype usernewstype, String userNewsTypeId, String name);
+    public int updateOfUserNewsTypeIdAndBody(Usernewstype usernewstype, String userNewsTypeId, String body);
+    public int updateOfUserIdAndName(Usernewstype usernewstype, String userId, String name);
+    public int updateOfUserIdAndBody(Usernewstype usernewstype, String userId, String body);
+    public int updateOfNameAndBody(Usernewstype usernewstype, String name, String body);
+    public int remove(Usernewstype usernewstype);
+    public int removeOfUserNewsTypeId(String userNewsTypeId);
+    public int removeOfUserId(String userId);
+    public int removeOfName(String name);
+    public int removeOfBody(String body);
+    public int removeOfUserNewsTypeIdAndUserId(String userNewsTypeId, String userId);
+    public int removeOfUserNewsTypeIdAndName(String userNewsTypeId, String name);
+    public int removeOfUserNewsTypeIdAndBody(String userNewsTypeId, String body);
+    public int removeOfUserIdAndName(String userId, String name);
+    public int removeOfUserIdAndBody(String userId, String body);
+    public int removeOfNameAndBody(String name, String body);
+    public int insert(Usernewstype usernewstype);
+    public int insertOfUserNewsTypeId(String userNewsTypeId);
+    public int insertOfUserId(String userId);
+    public int insertOfName(String name);
+    public int insertOfBody(String body);
+    public int insertOfUserNewsTypeIdAndUserId(String userNewsTypeId, String userId);
+    public int insertOfUserNewsTypeIdAndName(String userNewsTypeId, String name);
+    public int insertOfUserNewsTypeIdAndBody(String userNewsTypeId, String body);
+    public int insertOfUserIdAndName(String userId, String name);
+    public int insertOfUserIdAndBody(String userId, String body);
+    public int insertOfNameAndBody(String name, String body);
+    public Usernewstype getUsernewstype(Usernewstype usernewstype);
+    public Usernewstype getUsernewstypeOfUserNewsTypeId(String userNewsTypeId);
+    public Usernewstype getUsernewstypeOfUserId(String userId);
+    public Usernewstype getUsernewstypeOfName(String name);
+    public Usernewstype getUsernewstypeOfBody(String body);
+    public Usernewstype getUsernewstypeOfUserNewsTypeIdAndUserId(String userNewsTypeId, String userId);
+    public Usernewstype getUsernewstypeOfUserNewsTypeIdAndName(String userNewsTypeId, String name);
+    public Usernewstype getUsernewstypeOfUserNewsTypeIdAndBody(String userNewsTypeId, String body);
+    public Usernewstype getUsernewstypeOfUserIdAndName(String userId, String name);
+    public Usernewstype getUsernewstypeOfUserIdAndBody(String userId, String body);
+    public Usernewstype getUsernewstypeOfNameAndBody(String name, String body);
+    public List<Usernewstype> getUsernewstypes(Usernewstype usernewstype);
+    public List<Usernewstype> getUsernewstypesOfUserNewsTypeId(String userNewsTypeId);
+    public List<Usernewstype> getUsernewstypesOfUserId(String userId);
+    public List<Usernewstype> getUsernewstypesOfName(String name);
+    public List<Usernewstype> getUsernewstypesOfBody(String body);
+    public List<Usernewstype> getUsernewstypesOfUserNewsTypeIdAndUserId(String userNewsTypeId, String userId);
+    public List<Usernewstype> getUsernewstypesOfUserNewsTypeIdAndName(String userNewsTypeId, String name);
+    public List<Usernewstype> getUsernewstypesOfUserNewsTypeIdAndBody(String userNewsTypeId, String body);
+    public List<Usernewstype> getUsernewstypesOfUserIdAndName(String userId, String name);
+    public List<Usernewstype> getUsernewstypesOfUserIdAndBody(String userId, String body);
+    public List<Usernewstype> getUsernewstypesOfNameAndBody(String name, String body);
+}

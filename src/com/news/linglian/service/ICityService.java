@@ -1,0 +1,63 @@
+package com.news.linglian.service;
+
+import java.util.List;
+
+import com.news.linglian.entity.City;
+
+public interface ICityService {
+    public int update(City city, City keyCity);
+    public int updateOfId(City city, String id);
+    public int updateOfCode(City city, String code);
+    public int updateOfName(City city, String name);
+    public int updateOfProvincecode(City city, String provincecode);
+    public int updateOfIdAndCode(City city, String id, String code);
+    public int updateOfIdAndName(City city, String id, String name);
+    public int updateOfIdAndProvincecode(City city, String id, String provincecode);
+    public int updateOfCodeAndName(City city, String code, String name);
+    public int updateOfCodeAndProvincecode(City city, String code, String provincecode);
+    public int updateOfNameAndProvincecode(City city, String name, String provincecode);
+    public int remove(City city);
+    public int removeOfId(String id);
+    public int removeOfCode(String code);
+    public int removeOfName(String name);
+    public int removeOfProvincecode(String provincecode);
+    public int removeOfIdAndCode(String id, String code);
+    public int removeOfIdAndName(String id, String name);
+    public int removeOfIdAndProvincecode(String id, String provincecode);
+    public int removeOfCodeAndName(String code, String name);
+    public int removeOfCodeAndProvincecode(String code, String provincecode);
+    public int removeOfNameAndProvincecode(String name, String provincecode);
+    public int insert(City city);
+    public int insertOfId(String id);
+    public int insertOfCode(String code);
+    public int insertOfName(String name);
+    public int insertOfProvincecode(String provincecode);
+    public int insertOfIdAndCode(String id, String code);
+    public int insertOfIdAndName(String id, String name);
+    public int insertOfIdAndProvincecode(String id, String provincecode);
+    public int insertOfCodeAndName(String code, String name);
+    public int insertOfCodeAndProvincecode(String code, String provincecode);
+    public int insertOfNameAndProvincecode(String name, String provincecode);
+    public City getCity(City city);
+    public City getCityOfId(String id);
+    public City getCityOfCode(String code);
+    public City getCityOfName(String name);
+    public City getCityOfProvincecode(String provincecode);
+    public City getCityOfIdAndCode(String id, String code);
+    public City getCityOfIdAndName(String id, String name);
+    public City getCityOfIdAndProvincecode(String id, String provincecode);
+    public City getCityOfCodeAndName(String code, String name);
+    public City getCityOfCodeAndProvincecode(String code, String provincecode);
+    public City getCityOfNameAndProvincecode(String name, String provincecode);
+    public List<City> getCitys(City city);
+    public List<City> getCitysOfId(String id);
+    public List<City> getCitysOfCode(String code);
+    public List<City> getCitysOfName(String name);
+    public List<City> getCitysOfProvincecode(String provincecode);
+    public List<City> getCitysOfIdAndCode(String id, String code);
+    public List<City> getCitysOfIdAndName(String id, String name);
+    public List<City> getCitysOfIdAndProvincecode(String id, String provincecode);
+    public List<City> getCitysOfCodeAndName(String code, String name);
+    public List<City> getCitysOfCodeAndProvincecode(String code, String provincecode);
+    public List<City> getCitysOfNameAndProvincecode(String name, String provincecode);
+}
